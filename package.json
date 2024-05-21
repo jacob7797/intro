@@ -4,6 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
+    "object":"node --watch ./js/duomenys/object.js",
+    "method:random": "node --watch ./js/metodai/random.js",
     "method:math": "node --watch ./js/metodai/math.js",
     "ternary":"node --watch ./js/palyginimas/ternary.js",
     "neutralisation":"node --watch ./nd/Neutralisation.js",
