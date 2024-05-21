@@ -1,7 +1,7 @@
 /*
 STRING - tekstas, tekstiniu simboliu grandinele
 
-iniciavimas: ` (vienguba), "(dviguba)
+iniciavimas: '(vienguba), "(dviguba), `(backtick)           
 
 */
 
@@ -50,3 +50,30 @@ console.log(pinigine);
 
 pinigine = pinigine + 90;
 console.log(pinigine);
+
+
+/*
+<header>
+    <img>  
+    <nav>
+        <a></a>
+        <a></a>
+        <a></a>
+    </nav>
+</header>
+*/
+
+// \r - return
+// \n - new line
+// \t - tab
+const HTML = `<header>\n\
+    <img>\
+    <nav>\
+        <a></a>\
+        <a></a>\
+        <a></a>\
+    </nav>\
+</header>`;
+
+console.log(HTML);
+

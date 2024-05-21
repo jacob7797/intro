@@ -65,3 +65,10 @@ console.log(!false);
 console.log(!!false);
 // daugiau nei dveju sauktu praktikoje nereikia
 
+console.clear();
+
+if (4 == `4`) {
+    console.log(`Taip`);
+}   else {
+    console.log(`Ne`);
+}
